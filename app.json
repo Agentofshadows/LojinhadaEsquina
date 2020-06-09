@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "Lojinha da Esquina",
+    "description": "Uma Loja Virtual",
+    "slug": "LojinhadaEsquina",
+    "privacy": "private",
+    "sdkVersion": "32.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "android": {
+      "versionCode": 2,
+      "package": "com.lojinhadesquina",
+      "permissions": [
+        "CAMERA",
+        "NOTIFICATIONS",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE"
+      ]
+    },
+    "notification": {
+      "icon": "assets/icon.png",
+      "color": "#ffffff",
+      "androidCollapsedTitle": "Uma nova notificação"
+    },
+    "updates": {
+      "enabled": true,
+      "fallbackToCacheTimeout": 0
+    },
+    "ios": {
+      "supportsTablet": false
+    }
+
+    
+  }
+}
